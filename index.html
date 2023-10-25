@@ -1,43 +1,43 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
-    <title>cursos para agronegócio</title>
-</head>
-<body>
-        <header>
-            <h1>AgroTech</h1>
-            <ul id="sumiu">
-                <li><a href="index.html">home</a></li>
-                <li><a href="secundários/cursos.html">cursos</a></li>
-                <li><a href="secundários/sobre.html">sobre </a></li>
-                <li><a href="secundários/contato.html">contato</a></li>
-                <li><a href="#">Pt-br</a></li>
-            </ul>
-        </header>
-        <main>
-            <div id="primeiro">
-                <p>AGT em</p>
-                <p id="segundo">Agronegócios</p>
-                <p> Educação a distância.</p>
-            </div>
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
-            <div id="inscreva-se">
-                <div id="broxa">
-                    <h2>10x de 100,00</h2><br>
-                    <p class="pequeno">sem taxa de inscrição!! <br>boleto ou cartão de crédito</p>
-                </div>
-                <a href="secundários/contato.html" id="botao">inscreva-se</a>
-            </div>
-            <div id="ultimo">
-                    <p>Início das aulas <strong>20/06/2023</strong> </p>
-                    <p>Certificação do <strong>MEC</strong></p>
-                    <p>Este curso possui legendas e material de aulas em português,inglês e espanhol</p>
-                    <p>Valores válidos somente para alunos residentes em território nacional brasileiro</p>
-            </div>
-        </main>
-</body>
-</html>
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+}
+
+p.pequeno {
+    font-size: 1.1em;
+    color: rgb(139, 138, 138);
+}
+
+#segundo {
+    font-size: 2.3em;
+    font-weight: bolder;
+}
+
+div#inscreva-se >div#broxa > h2 {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: rgb(100, 99, 99);
+    font-size: 1.7em;
+}
+
+a#botao:hover {
+    background-color: rgb(104, 250, 104);   
+    color: black;
+}
+
+div#ultimo > p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3em;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+@media(max-width: 700px) and (min-width:360px) {
+    body {
+        background-image: url(imagens/pexels-hicret-16954026.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
