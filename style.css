@@ -1,272 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #7f1d6a;
+    font-family: cursive;
+}
 body{
-	 font-family: 'Montserrat', sans-serif;
-	 
+    background-image: url('donuts-background.jpeg');
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-
-header {
-    background: #BBBBBB;
-    padding: 20px 0;
+.background-img{
+    width: 100%;
+    
 }
-
-.caixa{
-	position: relative;
-	width: 940px;
-	margin: 0 auto;
+.donuts-background{
+    height: auto;
+    position: relative; top: 0px; left: 0px;
 }
-
-nav {
-	position: absolute;
-	top: 110px;
-	right: 0;
+.donuts{
+    font-size: 20px;
+    position: absolute; top: 20px; left: 5px;
+    width: 98%;
+    height: 20%;
+    border-radius: 20px;
+    padding: 2px;
+    background-color: #ffbfcd;
 }
-
-nav li {
-    display: inline;
-    margin: 0 0 0 15px;
+.radius-donut{
+    border-radius: 50%;
+    width: 10%;
+    height: 60%;
+    position: absolute; bottom: 5px;
 }
-
-nav a {
-    text-transform: uppercase;
-    color: #000000;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
+.best-donuts{
+    position: absolute; top: 25%;
+    height: auto;
 }
-
-nav a:hover {
-	border-color: #C78C19;
-	text-decoration: underline;
+.paragraph-lorem{
+    position: absolute; top: 32%;
+    font-size: 18px;
+    margin: 6px;
 }
-
-.produtos {
-	width: 940px;
-	margin: 0 auto;
-	padding: 50px 0 ;
+.options{
+    position: absolute; top: 45%;
 }
-
-.produtos li {
-	display: inline-block;
+.option-donut{
+    position: absolute; top: 52%;
+}
+ul{
+    background: #ffbfcd;
+    border-radius: 15%;
     text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border: 2px solid #000000;
-    border-radius: 10px;
+    margin-left: 50px;
+    list-style: none;
+    padding: 2px;
+}
+.op-donuts{
+    height: 100px;
+    width: 125px;
+    border-radius: 20%;
 }
 
-.produtos li:hover {
-	border-color: #C78C19; 
+@media (max-width: 1080px){
+.donuts{
+    font-size: 16px;
+    position: absolute; top: 20px; left: 5px;
+    width: 98%;
+    height: 18%;
+    border-radius: 20px;
+    padding: 2px;
+    background-color: #ffbfcd;
+}
+.radius-donut{
+    border-radius: 50%;
+    width: 7%;
+    height: 50%;
+    position: absolute; bottom: 5px;
+}
+.best-donuts{
+    position: absolute; top: 25%;
+    height: auto;
+}
+.paragraph-lorem{
+    position: absolute; top: 30%;
+    font-size: 14px;
+    margin: 6px;
+}
+.options{
+    position: absolute; top: 45%;
+    font-size: 12px;
+}
+.option-donut{
+    position: absolute; top: 55%;
+}
+ul{
+    background: #ffbfcd;
+    font-size: 12px;
+    border-radius: 15%;
+    text-align: center;
+    margin-left: 50px;
+    list-style: none;
+    padding: 2px;
+}
+.op-donuts{
+    height: 60px;
+    width: 78px;
+    border-radius: 20%;
+}
 }
 
-.produtos li:active {
-	border-color: #088C19; 0-9 a-f
+@media (max-width: 768px){
+.donuts{
+    font-size: 14px;
+    position: absolute; top: 20px; left: 5px;
+    width: 98%;
+    height: 18%;
+    border-radius: 20px;
+    padding: 2px;
+    background-color: #ffbfcd;
 }
-
-.produtos li:hover h2 {
-	font-size: 34px;
+.radius-donut{
+    border-radius: 50%;
+    width: 9%;
+    height: 45%;
+    position: absolute; bottom: 5px;
 }
-
-.produtos h2 {
-	font-size: 30px;
-	font-weight: bold;
+.best-donuts{
+    position: absolute; top: 25%;
+    height: auto;
 }
-
-.produtos-descricao {
-	font-size: 18px;
+.paragraph-lorem{
+    position: absolute; top: 32%;
+    font-size: 12px;
+    margin: 6px;
 }
-
-.produtos-preco {
-	font-size: 22px;
-	font-weight: bold;
-	margin-top: 10px;
+.options{
+    position: absolute; top: 50%;
+    font-size: 11px;
 }
-
-footer {
-	text-align: center;
-	background: url("bg.jpg");
-	padding: 40px 0 ;
+.option-donut{
+    position: absolute; top: 58%;
 }
-
-.copyright {
-	color: #FFFFFF; 
-	font-size: 13px;
-	margin: 20px 0 0 ;
+ul{
+    background: #ffbfcd;
+    font-size: 11px;
+    border-radius: 15%;
+    text-align: center;
+    margin-left: 50px;
+    list-style: none;
+    padding: 2px;
 }
-
-main {
-	
+.op-donuts{
+    height: 50px;
+    width: 62px;
+    border-radius: 20%;
 }
-
-form {
-	margin: 40px 0;
-
-}
-
-form label, form legend {
-	display: block;
-	font-size: 20px;
-	margin: 0 0 10px;
-}
-
-.input-padrao {
-	display: block;
-	margin: 0 0 20px;
-	padding: 10px 25px;
-	width: 50%;
-}
-
-.checkbox{
-	margin: 20px 0;
-}
-
-.enviar {
-	width: 40%;
-	padding: 15px 0;
-	background: orange;
-	color: white;
-	font-weight: bold;
-	font-size: 18px;
-	border: none;
-	border-radius: 5px;
-	transition: 1s all;
-	cursor: pointer;
-}
-
-.enviar:hover {
-	background: darkorange;
-	transform: scale(1.2);
-}
-
-table {
- margin: 20px 0 40px;
-}
-
-thead {
-	background: #555555;
-	color: white;
-	font-weight: bold;
-} 
-
-td, th {
-	border: 1px solid #000000;
-	padding: 8px 15px;
-}
-
-/* css da pagina inicial */
-.banner {
-	width: 100%;
-}
-
-.titulo-principal {
-	text-align: center;
-	font-size: 2em;
-	margin: 0 0 1em;
-	clear: left;
-}
-
-.principal {
-	padding: 3em 0;
-	background: #FEFEFE;
-	width: 940px;
-	margin: 0 auto;
-}
-
-.principal p {
-	margin: 0 0 1em;
-}
-
-
-.principal strong {
- 	font-weight: bold;
-}
-
-.principal em {
-	font-style: italic;
-}
-
-.utensilios {
-	width: 120px;
-	float: left;
-	margin: 0 20px 20px 0;
-}
-
-.mapa {
-	padding: 3em 0;
-	background: linear-gradient(#FEFEFE,#888888);
-	
-}
-
-.mapa-conteudo {
-	width: 940px;
-	margin: 0 auto;
-}
-
-.mapa p {
-	margin: 0 0 2em;
-	text-align: center;
-}
-
-.beneficios {
-	padding: 3em 0;
-	background: #888888;
-}
-
-.conteudo-beneficios {
-	width: 640px;
-	margin: 0 auto;
-}
-
-.lista-beneficios {
- 	width: 40%;
- 	display: inline-block;
- 	vertical-align: top;
-}
-
-.itens {
-	line-height: 1.5;
-}
-
-.itens:first-child {
-	font-weight: bold;
-}
-
-.itens:before {
-	content: "🟊";
-}
-
-.imagem-beneficios {
-	width: 60%;
-	opacity: 1;
-	transition: 400ms;
-	box-shadow: 10px 10px 10px #000000;
-}
-
-.imagem-beneficios:hover {
- 	opacity: 0.3;
-}
-
-.video {
-	width: 560px;
-	margin: 2em auto;
-}
-
-@media screen and (max-width: 480px) {
-   .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
-   	width: auto;
-   }
-
-   h1{
-   	text-align: center;
-   }
-
-   nav {
-   	position: static;
-   }
-
-   .lista-beneficios, .imagem-beneficios{
-   	width: 100%;
-   }
 }
