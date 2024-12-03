@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha História de Amor</title>
     <style>
+        /* Estilos Gerais */
         body {
             font-family: "Georgia", serif;
             background: linear-gradient(to bottom, #fbd3e9, #bb377d);
@@ -17,118 +18,22 @@
             min-height: 100vh;
         }
         .container {
-            max-width: 800px;
+            max-width: 90%;
             background: rgba(255, 255, 255, 0.1);
-            padding: 30px;
+            padding: 20px;
             border-radius: 15px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
             text-align: justify;
         }
         h1 {
             text-align: center;
-            font-size: 2.5em;
-            color: #ffd700;
-        }
-        p {
-            line-height: 1.8;
-            font-size: 1.2em;
-        }
-        .highlight {
-            color: #ffd700;
-            font-weight: bold;
-        }
-        footer {
-            margin-top: 20px;
-            text-align: center;
-            font-size: 0.9em;
-            color: #ffe4e1;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Minha História de Amor</h1>
-        <p>
-            Um amor verdadeiro não se procura, ele aparece do nada. Eu já tive vários amores: de escola, de infância, mas você foi meu <span class="highlight">amor verdadeiro</span>.
-            Tudo começou na praia. Eu era viciado em computador, mas sempre havia uma menina — filha de amigos da família — que fazia meu coração parar. Sua beleza me paralisava 
-            e enchia meu coraçãozinho de vergonha. Isso desde criança.
-        </p>
-        <p>
-            Os anos passaram como o vento. Eu, de um lado, sem dar certo com ninguém; e ela, do outro, se decepcionando com amores que só aumentavam suas inseguranças. No começo de 2024, 
-            tudo mudou. Naquela viagem de família à praia, amadurecido e decidido, tomei coragem para me aproximar. A gente começou a se encarar, a sair mais, até que um dia, 
-            após uma longa caminhada e conversa, nos sentamos em um banco com vista para o mar.
-        </p>
-        <p>
-            Com borboletas no estômago e o coração disparado, finalmente a beijei. Foi como estar no céu, uma cena digna de novela, diante do mar. Aquele foi o melhor beijo da minha vida. 
-            Após o beijo, rimos de um homem ao lado que fazia algo cômico, mas aquele momento se tornou eterno.
-        </p>
-        <p>
-            Nos namoramos escondidos por um tempo, mas o amor não se esconde por muito. Todos perceberam e apoiaram. Na despedida da praia, ela chorou, temendo que a distância nos separasse. 
-            Mas eu prometi: todo fim de semana estaria com ela. Promessa cumprida. Cada encontro fortaleceu nosso laço, e meu amor por ela só aumentou. 
-        </p>
-        <p>
-            Ainda estamos escrevendo essa história juntos, com um final que nunca vai chegar. Porque <span class="highlight">o amor verdadeiro nunca acaba</span>. 
-        </p>
-        <footer>
-            <p>Escrito com amor 💖</p>
-        </footer>
-    </div>
-</body>
-</html>
-Instruções
-Copie e cole o código acima em um editor de texto.
-Salve o arquivo como historia_de_amor.html.
-Abra-o em qualquer navegador para visualizar sua história transformada em uma página de site emocionante.
-Se quiser ajustar algum detalhe, é só pedir! 😊
-
-
-
-
-
-
-Você disse:
-mude apenas a cor amarela por azul
-O ChatGPT disse:
-ChatGPT
-Aqui está o código atualizado com a cor azul no lugar da amarela:
-
-Código HTML Atualizado
-html
-Copiar código
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha História de Amor</title>
-    <style>
-        body {
-            font-family: "Georgia", serif;
-            background: linear-gradient(to bottom, #fbd3e9, #bb377d);
-            color: #fff;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .container {
-            max-width: 800px;
-            background: rgba(255, 255, 255, 0.1);
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-            text-align: justify;
-        }
-        h1 {
-            text-align: center;
-            font-size: 2.5em;
+            font-size: 2em;
             color: #00bfff;
+            margin-bottom: 15px;
         }
         p {
-            line-height: 1.8;
-            font-size: 1.2em;
+            line-height: 1.6;
+            font-size: 1em;
         }
         .highlight {
             color: #00bfff;
@@ -137,8 +42,22 @@ Copiar código
         footer {
             margin-top: 20px;
             text-align: center;
-            font-size: 0.9em;
+            font-size: 0.8em;
             color: #ffe4e1;
+        }
+
+        /* Responsividade */
+        @media (min-width: 768px) {
+            .container {
+                max-width: 600px;
+                padding: 30px;
+            }
+            h1 {
+                font-size: 2.5em;
+            }
+            p {
+                font-size: 1.2em;
+            }
         }
     </style>
 </head>
